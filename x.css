@@ -11,7 +11,7 @@ background:rgba(222,222,222,0.73);
 	display: none;
 }
 :root.dark * {
-	background: #232526;
+	background: #212529;
 }
 :root.dark a.tools {
 color: #b1b3b5;
@@ -25,6 +25,10 @@ color: #fff;
 }
 :root.dark table {
 box-shadow: 0px 0px 0px 6px #343536;
+}
+:root.dark .ball:hover {
+background:transparent;
+border:1px solid red;
 }
 .themes {
 text-align: right;
@@ -40,7 +44,6 @@ margin: 50px auto;
 border-radius: 20px;
 box-shadow: 0px 0px 0px 6px rgba(222,222,222,0.73);
 }
-
 thead tr:first-child {
 background: #fff;
 color: #8a8a8a;
@@ -171,7 +174,7 @@ text-decoration:none;
 }
 a:hover {
 text-decoration: underline;
--webkit-text-decoration-color: red;
+-webkit-text-decoration-color: blue;
 text-decoration-color: red;
 }
 .alert {
@@ -208,9 +211,9 @@ a.tools:hover,
 a.back:hover,
 select:hover, 
 input[type=submit]:hover {
-	cursor:pointer;
-	border:1px solid red;
-	text-decoration:none;
+cursor:pointer;
+border:1px solid red;
+text-decoration:none;
 }
 select:focus,
 input:focus {
@@ -337,3 +340,10 @@ background-image :	-o-linear-gradient(rgb(179,217,140),rgb(153,204,102));
 background-image : -webkit-linear-gradient(rgb(179,217,140),rgb(153,204,102));
 background-image :		 linear-gradient(rgb(179,217,140),rgb(153,204,102));
 }
+.ball:hover {background-color: transparent;cursor: default;}.ball,.ball{display:inline-block;font-weight:400;line-height:1.5;color:#212529;text-align:center;text-decoration:none;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;border-radius:.25rem;}
+.ball-outline{color:#8a8a8a;border-color:#8a8a8a}
+.ball-outline:hover{color:#fff;background-color:#8a8a8a;border-color:#8a8a8a}
+.ball-check:focus+
+.ball-outline,.ball-outline:focus{box-shadow:0 0 0 .25rem rgba(33,37,41,.5)}
+.ball-sm{padding:.25rem .5rem;font-size:.875rem;border-radius:.2rem}
+.ball-group,.ball-group-vertical{position:relative;display:inline-flex;vertical-align:middle}.ball-group-vertical>.ball-group>.ball-group:not(:first-child),.ball-group>.ball:not(:first-child){margin-left:-1px}.ball-group>.ball-group:not(:last-child)>.ball,.ball-group>.ball:not(:last-child):not(.dropdown-toggle){border-top-right-radius:0;border-bottom-right-radius:0}.ball:nth-child(n+3),.ball-group>:not(.ball-check)+.ball{border-top-left-radius:0;border-bottom-left-radius:0}
