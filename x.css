@@ -37,10 +37,9 @@ cursor: default;
 }
 
 .date-time {
-line-height: 7px;
+line-height: 10px;
 font-size: 65%;
 text-align: center;
-margin: 4px auto;
 }
 .date-file {
 line-height: 7px;
@@ -49,10 +48,6 @@ text-align: justify;
 margin: 4px auto;
 }
 .file-x {
-line-height: 13px;
-}
-.file-x2 {
-text-align: center;
 line-height: 13px;
 }
 .kiw {
