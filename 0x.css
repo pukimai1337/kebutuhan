@@ -17,8 +17,23 @@ background:rgba(222,222,222,0.73);
 color: #b1b3b5;
 background: #343536;
 }
-:root.dark a {
+:root.dark .back {
 color: #b1b3b5;
+background: #343536;
+}
+:root.dark input[type=submit] {
+color: #b1b3b5;
+background: #343536;
+}
+:root.dark a {
+background:transparent;
+color: #b1b3b5;
+}
+:root.dark i {
+background:transparent;
+}
+:root.dark font {
+background:transparent;
 }
 :root.dark .info {
 color: #fff;
@@ -135,7 +150,7 @@ padding-right: 10px;
 }
 textarea {
 background:rgba(222,222,222,0.73);
-border:1px solid rgba(222,222,222,0.73);
+border:2px solid #7d7d7d;
 margin-left:-8px;
 margin-right:10px;
 margin-top:10px;
@@ -179,22 +194,9 @@ margin-top:10px;
 margin-bottom:10px;
 color:#8a8a8a;
 font-weight: bold;
-border-radius:20px;
-border:1px solid rgba(222,222,222,0.73);
-background:rgba(222,222,222,0.73);
-}
-.bt {
-padding:7px 20px;
-text-align: right;
-outline:none;
-margin-left:-8px;
-margin-right:10px;
-margin-top:10px;
-margin-bottom:10px;
-color:#8a8a8a;
-font-weight: bold;
-border-radius:20px;
-border:1px solid rgba(222,222,222,0.73);
+border-radius:5px;
+border:2px solid #7d7d7d;
+border:2px solid #7d7d7d;
 background:rgba(222,222,222,0.73);
 }
 input[type=text] {
@@ -267,7 +269,7 @@ a.back:hover,
 select:hover,
 input[type=submit]:hover {
 cursor:pointer;
-border:1px solid red;
+border:2px solid red;
 text-decoration:none;
 }
 select:focus,
@@ -295,8 +297,8 @@ border:none;
 }
 a.back {
 color:#8a8a8a;
-border-radius:20px;
-border:1px solid rgba(222,222,222,0.73);
+border-radius:5px;
+border:2px solid #7d7d7d;
 background:rgba(222,222,222,0.73);
 padding:5px 30px;
 outline:none;
@@ -320,16 +322,16 @@ cursor: pointer;
 user-select: none;
 }
 a.tools {
-line-height: 35px;
+line-height: 40px;
 margin-left:-8px;
 margin-right:10px;
 margin-top:10px;
 margin-bottom:10px;
-padding:7px 20px;
+padding:6px 16px;
 outline:none;
 color:#8a8a8a;
-border-radius:20px;
-border:1px solid rgba(222,222,222,0.73);
+border-radius:5px;
+border:2px solid #7d7d7d;
 background:rgba(222,222,222,0.73);
 }
 input[type=checkbox]:not(old),
