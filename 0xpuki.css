@@ -48,9 +48,6 @@ color: #fff;
 background:transparent;
 border:1px solid red;
 }
-:root.dark .anu:hover {
-border:1px solid #787878;
-}
 :root.dark th {
 background-color: #343536;
 border: 0.9px solid #343536;
@@ -66,25 +63,26 @@ cursor: default;
 color: #8f8f8f;
 background: #343536;
 }
-:root.dark .cmd {
-background-color: #343536;
-color: #bababa;
-}
 :root.dark textarea {
 background-color: #343536;
 color: #bababa;
 }
+
 .cmd {
 border-radius: 5px;
-padding: 5px 10px;
-border: 1px solid #b0b0b0;
-font-size: 10pt;
+border: 2px solid #b0b0b0;
+font-size: 9pt;
 text-align: left;
 line-height: 13px;
 overflow-x:auto;
 background: #808080;
 height: 350px;
-color: #ededed;
+}
+.ss {
+padding: 5px 10px;
+font-size: 10pt;
+text-align: left;
+overflow-x:auto;
 }
 .tltip {
 position: relative;
@@ -223,6 +221,15 @@ font-weight: bold;
 border-radius:5px;
 border:2px solid #adadad;
 background: #f2f2f2;
+}
+input[type=number] {
+padding:7px 5px;
+outline:none;
+color:#8a8a8a;
+border-bottom:3px solid  #f2f2f2;
+border-top:none;
+border-left:none;
+border-right:none;
 }
 input[type=text] {
 padding:7px 5px;
