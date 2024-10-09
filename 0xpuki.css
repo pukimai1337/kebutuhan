@@ -10,18 +10,15 @@ background: #f2f2f2;
 :root.dark a span:nth-child(2) {
 display: none;
 }
+:root.dark {
+background: #32363b;
+}
 :root.dark * {
 background: #212529;
 }
+:root.dark input[type=submit],
+:root.dark .back,
 :root.dark a.tools {
-color: #b1b3b5;
-background: #343536;
-}
-:root.dark .back {
-color: #b1b3b5;
-background: #343536;
-}
-:root.dark input[type=submit] {
 color: #b1b3b5;
 background: #343536;
 }
@@ -32,13 +29,9 @@ box-shadow: 0px 0px 0px 6px #575757;
 background:transparent;
 color: #b1b3b5;
 }
+:root.dark i,
+:root.dark font,
 :root.dark b {
-background:transparent;
-}
-:root.dark i {
-background:transparent;
-}
-:root.dark font {
 background:transparent;
 }
 :root.dark .info {
@@ -57,6 +50,10 @@ cursor: default;
 background-color: #343536;
 cursor: default;
 }
+:root.dark .cmd {
+background-color: #343536;
+color: #bababa;
+}
 :root.dark .total,
 :root.dark .free,
 :root.dark .used {
@@ -70,8 +67,9 @@ color: #bababa;
 
 .cmd {
 border-radius: 5px;
+padding: 5px 10px;
 border: 2px solid #b0b0b0;
-font-size: 9pt;
+font-size: 10pt;
 text-align: left;
 line-height: 13px;
 overflow-x:auto;
