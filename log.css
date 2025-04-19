@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu Mono");
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+body {
+	margin:auto;
+	background: #191919;
+	font-family: "Ubuntu Mono";
+    -webkit-font-smoothing:antialiased;
+	font-size: 14px;
+    color:#fff;
+    text-shadow:0px 0px 0px #343436;
+}
+*:focus {
+	outline: 0;
+} 
+.container {
+	max-width: 350px;
+	margin: auto;
+    background: none;
+}
+.content {
+	margin:10px;
+	background:#222;
+	padding:7px;
+	color:#fff;
+	box-shadow:0px 1px 1px rgba(0,0,0,0.1) inset;
+	border-radius:5px;
+	max-width:350px;
+}
+input[type=text], input[type=password] {
+	padding:7px;
+	font-size:14px;
+	font-family: "Ubuntu Mono";
+	width:100%;
+	border:1px solid #343436;
+	background:none;
+	color: #FA5A5A;
+}
+input[type=text]:hover, input[type=password]:hover {
+	border:1px solid #FA5A5A;
+	transition: all 0.5s;
+} 
+button {
+	padding:7px;
+	font-size:14px;
+	font-family: "Ubuntu Mono";
+	background:#FA5A5A;
+	width:100px;
+	border:1px solid #FA5A5A;
+}
+button:hover {
+	background:none;
+	color:#FA5A5A;
+	border:1px solid #FA5A5A;
+	transition: all 0.5s;
+}
+.top5 {
+	margin-top: 5px;
+}
+table { 
+	width:100%;
+}
+td { 
+	color:#fff;
+	font-size: 14px;
+ }
+ a { 
+	text-decoration: none; 
+	color:#FA5A5A;
+}
+hr { 
+  	border: 0; 
+  	height: 1px; 
+  	background-image: -webkit-linear-gradient(left, #FA5A5A, #FA5A5A, #FA5A5A);
+  	background-image: -moz-linear-gradient(left, #FA5A5A, #FA5A5A, #FA5A5A);
+  	background-image: -ms-linear-gradient(left, #FA5A5A, #FA5A5A, #FA5A5A);
+  	background-image: -o-linear-gradient(left, #FA5A5A, #FA5A5A, #FA5A5A);
+}
+h3 { 
+	font-weight:500;
+}
