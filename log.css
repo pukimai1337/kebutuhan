@@ -6,11 +6,11 @@
 }
 body {
 	margin:auto;
-	background: #191919;
+	background: #9FA6B2;
 	font-family: "Ubuntu Mono";
     -webkit-font-smoothing:antialiased;
 	font-size: 14px;
-    color:#fff;
+    color:#332D2D;
     text-shadow:0px 0px 0px #343436;
 }
 *:focus {
@@ -23,9 +23,9 @@ body {
 }
 .content {
 	margin:10px;
-	background:#222;
+	background:#FBFBFB;
 	padding:7px;
-	color:#fff;
+	color:#332D2D;
 	box-shadow:0px 1px 1px rgba(0,0,0,0.1) inset;
 	border-radius:5px;
 	max-width:350px;
@@ -36,25 +36,27 @@ input[type=text], input[type=password] {
 	font-family: "Ubuntu Mono";
 	width:100%;
 	border:1px solid #343436;
+	border-radius: 5px;
 	background:none;
-	color: #FA5A5A;
+	color: #14A44D;
 }
 input[type=text]:hover, input[type=password]:hover {
-	border:1px solid #FA5A5A;
+	border:1px solid #14A44D;
 	transition: all 0.5s;
 } 
 button {
 	padding:7px;
 	font-size:14px;
 	font-family: "Ubuntu Mono";
-	background:#FA5A5A;
+	background:#14A44D;
 	width:100px;
-	border:1px solid #FA5A5A;
+	border:1px solid #14A44D;
+	border-radius: 5px;
 }
 button:hover {
 	background:none;
-	color:#FA5A5A;
-	border:1px solid #FA5A5A;
+	color:#14A44D;
+	border:1px solid #14A44D;
 	transition: all 0.5s;
 }
 .top5 {
@@ -64,21 +66,27 @@ table {
 	width:100%;
 }
 td { 
-	color:#fff;
+	color:#332D2D;
 	font-size: 14px;
  }
- a { 
+a { 
 	text-decoration: none; 
-	color:#FA5A5A;
+	color:#14A44D;
 }
 hr { 
   	border: 0; 
   	height: 1px; 
-  	background-image: -webkit-linear-gradient(left, #FA5A5A, #FA5A5A, #FA5A5A);
-  	background-image: -moz-linear-gradient(left, #FA5A5A, #FA5A5A, #FA5A5A);
-  	background-image: -ms-linear-gradient(left, #FA5A5A, #FA5A5A, #FA5A5A);
-  	background-image: -o-linear-gradient(left, #FA5A5A, #FA5A5A, #FA5A5A);
+  	background-image: -webkit-linear-gradient(left, #14A44D, #14A44D, #14A44D);
+  	background-image: -moz-linear-gradient(left, #14A44D, #14A44D, #14A44D);
+  	background-image: -ms-linear-gradient(left, #14A44D, #14A44D, #14A44D);
+  	background-image: -o-linear-gradient(left, #14A44D, #14A44D, #14A44D);
 }
 h3 { 
 	font-weight:500;
+}
+.fail {
+    color: #DC4C64;
+}
+.fail2 {
+    color: #E4A11B;
 }
